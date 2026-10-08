@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario de prueba de HTML5</title>
+</head>
+<body>
+	<h1>Formularios</h1>
+
+	<!--Formularios de registro de datos-->
+
+	<form target="blank" method="post">
+		<fieldset>
+			<legend>Datos personales</legend>
+		<p>
+		<label for="txtNombre">Nombre</label>
+		<input type="text" name="txtNombre" id="txtNombre" required autofocus>
+		</p>
+		<p>
+		<label for="txtCorreo">Correo</label>
+		<input type="email" name="txtEmail" id="txtEmail" required>
+		</p>
+		<p>
+		<label for="txtURL">URL</label>
+		<input type="URL" name="txtURL" id="txtURL" placeholder="Inserta la URL de tu página web" size="22">
+		</p>
+		<label for="sCiudad">Ciudad</label>
+		<select name="sCiudad" id="sCiudad">
+			<option value="CO">CÓRDOBA</option>
+			<option selected value="SE">SEVILLA</option>
+			<option value="HU">HUELVA</option>
+			<option value="CA">CÁDIZ</option>
+			<option value="MA">MÁLAGA</option>
+			<option value="GR">GRANADA</option>
+			<option value="AL">ALMERÍA</option>
+			<option value="JA">JAÉN</option>
+		</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Otros datos</legend>
+			<p>
+		<label for="txtfecha">Fecha</label>
+		<input type="date" name="txtfecha" id="txtfecha">
+		</p>
+		<p>
+		<label for="txttiempo">Tiempo</label>
+		<input type="time" name="txttiempo" id="txttiempo">
+		</p>
+		<p>
+		<label for="txtfecha y hora">Fecha y hora</label>
+		<input type="datetime" name="txtfecha y hora" id="txtfecha y hora">
+		</p>
+		<p>
+		<label for="txtmes">Mes</label>
+		<input type="month" name="txtmes" id="txtmes">
+		</p>
+		<p>
+		<label for="txtsemana">Semana</label>
+		<input type="week" name="txtsemana" id="txtsemana">
+		</p>
+				<p>
+		<label for="txtcantidad">Número</label>
+		<input type="number" name="txtcantidad" id="txtcantidad" min="-10" max="10">
+		</p>
+		<p>
+		<label for="semana">Teléfono</label>
+		<input type="tel" name="telefono" id="telefono">
+		</p>
+		<p>
+		<label for="gbusqueda">Término de búsqueda</label>
+		<input type="search" name="gbusqueda" id="gbusqueda">
+		</p>
+		<p>
+		<label for="txtcolor">Color</label>
+		<input type="color" name="txtcolor" id="txtcolor">
+		</p>
+		</fieldset>
+		<fieldset>
+			<legend>Otros controles</legend>
+			<p>
+		<input type="checkbox" name="Aficiones" id="Aficiones">
+		<label for="Aficiones">Aficiones</label>
+		<input type="checkbox" name="Cine" id="Cine">
+		<label for="Cine">Cine</label>
+		<input type="checkbox" name="Deporte" id="Deporte">
+		<label for="Deporte">Deporte</label>
+		</p>
+		<p>Forma de pago</p>
+		<input type="radio" name="visa" id="visa" value="V">
+		<label for="Visa">Visa</label>
+		<input type="radio" name="American Express" id="American Express" value="A">
+		<label for="American Express">American Express</label>
+		<input type="radio" name="MasterCard" id="MasterCard" value="M">
+		<label for="MasterCard">MasterCard</label>
+		</fieldset>
+
+		<input id="btnEnvio" value="Enviar" type="submit">
+		<input id="btnBorrar" value="Borrar" type="reset">
+	</form>
+</body>
+</html>
