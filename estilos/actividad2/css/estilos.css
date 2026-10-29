@@ -1,4 +1,4 @@
-*{
+	*{
 	background-origin: border-box;
 	padding: 0;
 	margin: 0;
@@ -50,18 +50,39 @@
 
 .bola{
 	margin: 2%;
+	padding: 2px;
+	width: 100%;
+	border: 10px solid transparent;
 	border-image-source: url("../img/bola.png");
 	text-align: justify;
 }
 
 .caja4{
-
+	margin: 2%;
+	padding: 2px;
+	width: 100%;
+	border: 10px solid transparent;
+	border-image-source: url("../img/pastilla.png");
+	text-align: justify;
+	border-image-slice: 25;
 }
 
 .caja5{
-
+	margin: 2%;
+	padding: 5px;
+	width: 100%;
+	border: 10px solid transparent;
+	border-image-source: url("../img/ventana.png");
+	text-align: justify;
+	border-image-slice: 10;	
 }
 
 .caja6{
-
+	margin: 2%;
+	padding: 5px;
+	width: 100%;
+	border: 10px solid transparent;
+	border-image-source: url("../img/hormigas.png");
+	text-align: justify;
+	border-image-slice: 35;	
 }
